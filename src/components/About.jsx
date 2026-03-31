@@ -15,7 +15,7 @@ const About = () => {
         >
           <div className="absolute inset-0 bg-yoga-200 rounded-[3rem] transform -rotate-3 scale-105 -z-10 origin-bottom-left transition-transform hover:rotate-0" />
           <img
-            src="/src/assets/images/about.png"
+            src="/assets/images/about.png"
             alt="Yoga instructor meditating"
             className="w-full rounded-[3rem] shadow-xl object-cover aspect-[4/5] object-center"
           />

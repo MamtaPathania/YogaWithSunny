@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const Gallery = () => {
   const images = [
-    { src: "/src/assets/images/yoga-group.png", title: "Online Group Sessions", category: "Community" },
-    { src: "/src/assets/images/yoga-pose.png", title: "Personal Training", category: "Focus" },
-    { src: "/src/assets/images/yoga-prenatal.png", title: "Prenatal Yoga", category: "Wellness" },
-    { src: "/src/assets/images/yoga-therapy.png", title: "Therapy Yoga", category: "Healing" }
+    { src: "/assets/images/yoga-group.png", title: "Online Group Sessions", category: "Community" },
+    { src: "/assets/images/yoga-pose.png", title: "Personal Training", category: "Focus" },
+    { src: "/assets/images/yoga-prenatal.png", title: "Prenatal Yoga", category: "Wellness" },
+    { src: "/assets/images/yoga-therapy.png", title: "Therapy Yoga", category: "Healing" }
   ];
 
   return (

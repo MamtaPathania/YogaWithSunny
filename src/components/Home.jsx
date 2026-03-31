@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const carouselImages = [
-    "/src/assets/images/hero.png",
-    "/src/assets/images/yoga-group.png",
-    "/src/assets/images/yoga-pose.png"
+    "/assets/images/hero.png",
+    "/assets/images/yoga-group.png",
+    "/assets/images/yoga-pose.png"
   ];
 
   useEffect(() => {
@@ -119,7 +119,7 @@ const Home = () => {
               <div className="flex -space-x-4">
                 {[1, 2, 3].map((i) => (
                   <div key={i} className="w-12 h-12 rounded-full border-4 border-white bg-yoga-200 overflow-hidden shadow-sm">
-                    <img src={`/src/assets/images/student-${i % 2 + 1}.png`} alt="Student" className="w-full h-full object-cover" />
+                    <img src={`/assets/images/student-${i % 2 + 1}.png`} alt="Student" className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>
