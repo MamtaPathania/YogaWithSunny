@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 import Routing from './routing';
 import './index.css';
 
@@ -11,6 +12,7 @@ function App() {
       <main className="flex-grow">
         <Routing />
       </main>
+      <WhatsAppButton />
       <Footer />
     </div>
   );
